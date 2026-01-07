@@ -1,4 +1,58 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Inertlab Project
+
+Проект Inertlab - веб-приложение на базе Laravel Framework.
+
+## 🚀 Быстрый старт / Развертывание
+
+### Автоматическая установка
+
+Для автоматической установки выполните:
+
+```bash
+bash setup.sh
+```
+
+Или используйте встроенный скрипт Composer:
+
+```bash
+composer run setup
+```
+
+### Ручная установка
+
+1. **Установите зависимости:**
+   ```bash
+   composer install --no-dev --optimize-autoloader
+   ```
+
+2. **Настройте окружение:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+3. **Создайте базу данных:**
+   ```bash
+   touch database/database.sqlite
+   php artisan migrate
+   ```
+
+4. **Установите права доступа:**
+   ```bash
+   chmod -R 775 storage bootstrap/cache
+   ```
+
+5. **Очистите кэш:**
+   ```bash
+   php artisan config:clear
+   php artisan cache:clear
+   ```
+
+**📋 Подробная инструкция по развертыванию:** см. [DEPLOYMENT.md](DEPLOYMENT.md)
+
+---
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/framework/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
