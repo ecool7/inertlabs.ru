@@ -25,7 +25,7 @@ class ContactController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
-        $mailTo = env('MAIL_TO', 'info.inertlab@gmail.com');
+        $mailTo = env('MAIL_TO', 'info@inertlabs.ru');
         
         try {
             Mail::raw(
@@ -38,7 +38,7 @@ class ContactController extends Controller
             
             return back()->with('success', 'Спасибо! Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время.');
         } catch (\Exception $e) {
-            return back()->with('error', 'Произошла ошибка при отправке сообщения. Пожалуйста, попробуйте позже или напишите на info.inertlab@gmail.com');
+            return back()->with('error', 'Произошла ошибка при отправке сообщения. Пожалуйста, попробуйте позже или напишите на info@inertlabs.ru');
         }
     }
 }

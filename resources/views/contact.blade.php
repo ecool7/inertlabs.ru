@@ -47,7 +47,7 @@
 
       <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
         <h2 class="text-lg font-semibold">Контакты</h2>
-        <p class="text-white/70 mt-2 text-sm">info.inertlab@gmail.com</p>
+        <p class="text-white/70 mt-2 text-sm">info@inertlabs.ru</p>
         <div class="mt-6 overflow-hidden rounded-lg">
           <iframe class="w-full h-64" src="https://yandex.ru/map-widget/v1/?ll=37.6173%2C55.7558&z=12" frameborder="0" allowfullscreen="true"></iframe>
         </div>
