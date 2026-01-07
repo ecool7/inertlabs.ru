@@ -87,7 +87,7 @@
         </div>
         <div>
           <h3 class="text-white/80 font-medium mb-3">Контакты</h3>
-          <p class="text-sm">info.inertlab@gmail.com</p>
+          <p class="text-sm">info@inertlabs.ru</p>
         </div>
       </div>
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-white/50">© {{ date('Y') }} Inertlab. Все права защищены.</div>
